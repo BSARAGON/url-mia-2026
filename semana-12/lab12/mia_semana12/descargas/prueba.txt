@@ -1,0 +1,1 @@
+Este es un archivo de prueba para el Laboratorio 2 de Azure Blob Storage.
