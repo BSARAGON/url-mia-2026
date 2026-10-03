@@ -2,7 +2,7 @@
 using Azure.Storage.Blobs.Models;
 
 string? connectionString =
-    Environment.GetEnvironmentVariable("AZURE_STORAGE_CONNECTION_STRING");
+    Environment.GetEnvironmentVariable("AZURE_STORAGE_CONNECTION_STRING_LOCAL");
 
 if (string.IsNullOrWhiteSpace(connectionString))
 {
@@ -163,7 +163,6 @@ async Task ListarArchivos()
         Console.WriteLine(ex.Message);
     }
 }
-
 
 // DESCARGAR ARCHIVO
 async Task DescargarArchivo()

@@ -1,0 +1,7 @@
+# Archivos de compilación de .NET
+**/bin/
+**/obj/
+
+# Archivos con variables de entorno
+**/.env
+**/.env.production
